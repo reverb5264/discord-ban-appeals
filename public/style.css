@@ -13,7 +13,7 @@ h1 {
 }
 
 h2, p {
-    color: #b9bbbe; /*white grayish color*/
+    color: #dcddde; /*white grayish color*/
 }
 
 a {
@@ -38,7 +38,7 @@ button:active, a.btn:active {
 }
 
 label {
-    color: #8e9297; /*gray*/
+    color: #dcddde; /*gray*/
 }
 
 label.radio {
@@ -48,7 +48,7 @@ label.radio {
 
     border-radius: 4px;
     background-color: #65c69a; /*light black, charcoal*/
-    color: #b9bbbe; /*light gray, dark cloud*/
+    color: #dcddde; /*light gray, dark cloud*/
 
     margin-bottom: 8px;
 
@@ -126,11 +126,11 @@ select {
 }
 
 select:invalid {
-    color: #72767d !important; /*slightly dark gray*/
+    color: #b9bbbe !important; /*slightly dark gray*/
 }
 
 option {
-    color: #b9bbbe; /*dakr cloud white*/
+    color: #b9bbbe; /*dark cloud white*/
 }
 
 textarea {
@@ -149,7 +149,7 @@ textarea {
 }
 
 textarea:hover {
-    border-color: #040405 !important;
+    border-color: #040405 !important; /*black*/
 }
 
 textarea:focus {
@@ -167,7 +167,7 @@ textarea:focus {
     font-size: 12px;
     font-family: monospace;
     pointer-events: none;
-    color: #72767d; /*darkish gray*/
+    color: #dcddde; /*darkish gray*/
 }
 
 .lowOnSpace {
