@@ -1,11 +1,11 @@
 body {
-    background: #36393f;
+    background: #43b581; /*full bg color*/
 
     font-family: 'Fira Sans', sans-serif;
 }
 
 .jumbotron {
-    background: #2f3136; /* full bg color*/
+    background: #65c69a; /* top bg color*/
 }
 
 h1 {
@@ -47,7 +47,7 @@ label.radio {
     padding: 10px;
 
     border-radius: 4px;
-    background-color: #2f3136; /*light black, charcoal*/
+    background-color: #65c69a; /*light black, charcoal*/
     color: #b9bbbe; /*light gray, dark cloud*/
 
     margin-bottom: 8px;
@@ -113,7 +113,7 @@ label.radio.checked > .checkmark > span {
 }
 
 select {
-    background-color: #2f3136 !important; /*charcoal*/
+    background-color: #65c69a !important; /*charcoal*/
 
     border: 1px solid #202225 !important; /*basically black*/
     cursor: pointer !important;
