@@ -5,7 +5,7 @@ body {
 }
 
 .jumbotron {
-    background: #2f3136;
+    background: #2f3136; /* full bg color*/
 }
 
 h1 {
@@ -13,16 +13,16 @@ h1 {
 }
 
 h2, p {
-    color: #b9bbbe;
+    color: #b9bbbe; /*white grayish color*/
 }
 
 a {
-    color: hsl(197,100%,47.8%);
+    color: hsl(197,100%,47.8%); /*light blue*/
 }
 
 button, a.btn {
     color: white !important;
-    background-color: hsl(235,85.6%,64.7%) !important;
+    background-color: hsl(235,85.6%,64.7%) !important; /*blurple*/
     border: none !important;
     box-shadow: none !important;
 
@@ -30,15 +30,15 @@ button, a.btn {
 }
 
 button:hover, a.btn:hover {
-    background-color: hsl(235,51.4%,52.4%) !important;
+    background-color: hsl(235,51.4%,52.4%) !important; /*darker blurple*/
 }
 
 button:active, a.btn:active {
-    background-color: hsl(235,46.7%,44.1%) !important;
+    background-color: hsl(235,46.7%,44.1%) !important; /*even darker blurple*/
 }
 
 label {
-    color: #8e9297;
+    color: #8e9297; /*gray*/
 }
 
 label.radio {
@@ -47,8 +47,8 @@ label.radio {
     padding: 10px;
 
     border-radius: 4px;
-    background-color: #2f3136;
-    color: #b9bbbe;
+    background-color: #2f3136; /*light black, charcoal*/
+    color: #b9bbbe; /*light gray, dark cloud*/
 
     margin-bottom: 8px;
 
@@ -56,13 +56,13 @@ label.radio {
 }
 
 label.radio:hover {
-    background-color: rgba(79,84,92,0.16);
-    color: #dcddde;
+    background-color: rgba(79,84,92,0.16); /*dark gray but almost transparent*/
+    color: #dcddde; /*light white*/
 }
 
 label.radio.checked {
-    background-color: #202225;
-    color: #ffffff;
+    background-color: #202225; /*basically black*/
+    color: #ffffff; /*white*/
 }
 
 label.radio > span:not(.checkmark) {
@@ -89,16 +89,16 @@ label.radio > .checkmark {
 
     border-radius: 50%;
     border-width: 2px;
-    border-color: #b9bbbe;
+    border-color: #b9bbbe; /*dark white/gray*/
     border-style: solid;
 }
 
 label.radio:hover > .checkmark {
-    border-color: #dcddde;
+    border-color: #dcddde; /*almost white*/
 }
 
 label.radio.checked > .checkmark {
-    border-color: #ffffff;
+    border-color: #ffffff; /*white*/
 }
 
 label.radio > .checkmark > span {
@@ -109,15 +109,15 @@ label.radio > .checkmark > span {
 }
 
 label.radio.checked > .checkmark > span {
-    background-color: hsl(235,86.1%,77.5%);
+    background-color: hsl(235,86.1%,77.5%); /*bluish purple but not blurple*/
 }
 
 select {
-    background-color: #2f3136 !important;
+    background-color: #2f3136 !important; /*charcoal*/
 
-    border: 1px solid #202225 !important;
+    border: 1px solid #202225 !important; /*basically black*/
     cursor: pointer !important;
-    color: #dcddde !important;
+    color: #dcddde !important; /*almost white*/
     border-radius: 4px !important;
     font-weight: 500 !important;
 
@@ -126,18 +126,18 @@ select {
 }
 
 select:invalid {
-    color: #72767d !important;
+    color: #72767d !important; /*slightly dark gray*/
 }
 
 option {
-    color: #b9bbbe;
+    color: #b9bbbe; /*dakr cloud white*/
 }
 
 textarea {
-    color: #dcddde !important;
+    color: #dcddde !important; /*more cloud white*/
 
-    background: rgba(0, 0, 0, 0.1) !important;
-    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    background: rgba(0, 0, 0, 0.1) !important; /*basically transparent*/
+    border: 1px solid rgba(0, 0, 0, 0.3) !important; /*basically transparent*/
 
     outline: none !important;
     box-shadow: none !important;
@@ -153,7 +153,7 @@ textarea:hover {
 }
 
 textarea:focus {
-    border-color: hsl(197,100%,47.8%) !important;
+    border-color: hsl(197,100%,47.8%) !important; /*light blue*/
 }
 
 .textInput {
@@ -167,11 +167,11 @@ textarea:focus {
     font-size: 12px;
     font-family: monospace;
     pointer-events: none;
-    color: #72767d;
+    color: #72767d; /*darkish gray*/
 }
 
 .lowOnSpace {
-    color: #f36c6c;
+    color: #f36c6c; /*red*/
 }
 
 #username {
